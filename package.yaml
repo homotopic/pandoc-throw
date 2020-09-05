@@ -1,0 +1,22 @@
+name:                pandoc-throw
+version:             0.1.0.0
+license:             MIT
+category:            Text
+author:              "Daniel Firth"
+maintainer:          "dan.firth@homotopic.tech"
+copyright:           "2020 Daniel Firth"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+synopsis:            MonadThrow behaviour for Pandoc.
+description:         Adds MonadThrow runners for PandocPure and PandocIO.
+
+dependencies:
+- base >= 4.7 && < 5
+- exceptions
+- pandoc
+
+library:
+  source-dirs: src
