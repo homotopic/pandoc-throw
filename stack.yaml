@@ -9,4 +9,4 @@ extra-deps:
 allow-newer: true
 nix:
   packages: [zlib]
-  enabled: false
+  enable: false
